@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+    background-image:linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 3%,
+        rgba(255, 255, 255, 0.364) 50%,
+        hsl(0deg 0% 100%) 97%
+      ), url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.encabezados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    text-align: center;
+}
+
+.header h1{
+    padding-bottom: 20px;
+    font-size: 2.7rem;
+    color: rgb(72, 72, 72);
+}
+
+.header p {
+    color: darkgray;
+    font-size: 1.2rem;
+    width: 77%;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+
+.logo{
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+
+.header__botones button {
+    margin: 5px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+.header__botones button:hover {
+    cursor: pointer;
+}
+
+.boton__ios {
+    background-color: rgb(73, 200, 174);
+    color: white;
+    border-style: solid;
+    border-bottom: 3px solid rgb(55, 149, 130);
+    border-left: 1px solid rgb(55, 149, 130);
+    border-right: 1px solid rgb(55, 149, 130);
+    border-top: none;
+}
+
+.boton__ios:hover {
+    background-color: rgb(74, 209, 182);
+    border-bottom: 3px solid rgb(63, 173, 151);
+    border-left: 1px solid rgb(63, 173, 151);
+    border-right: 1px solid rgb(63, 173, 151);
+}
+
+.boton__mac {
+    background-color: rgb(73, 122, 200);
+    color: white;
+    border-style: solid;
+    border-bottom: 3px solid rgb(56, 110, 152);
+    border-left: 1px solid rgb(56, 112, 152);
+    border-right: 1px solid rgb(56, 112, 152);
+    border-top: none;
+}
+
+.boton__mac:hover {
+    background-color: rgb(79, 136, 228);
+    border-bottom: 3px solid rgb(67, 133, 184);
+    border-left: 1px solid rgb(67, 133, 184);
+    border-right: 1px solid rgb(67, 133, 184);
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezados__seccion {
+    margin-top: 130px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.encabezados__seccion h2 {
+    padding: 15px;
+    font-size: 2rem;
+    color:rgb(72, 72, 72) ;
+}
+
+.encabezados__seccion p {
+    color: darkgray;
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+    width: 90%;
+    line-height: 30px;
+}
+
+.caracteristicas {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.caracteristicas-imagen {
+    padding-right: 100px;
+}
+
+.caracteristicas-texto {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 17%;
+    line-height: 30px;
+}
+
+.caracteristica-titulo {
+    color: rgb(72, 72, 72) ;
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+}
+
+.caracteristica-parrafo {
+    color: darkgray;
+}
+
+.clipboard-imagen {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.menos-margin-top {
+    margin-top: 75px;
+}
+
+.menos-margin-top p {
+    width: 100%;
+}
+
+.workflow__caracteristicas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caracteristicas-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 16%;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.caracteristicas-item h3{
+    color: rgb(72, 72, 72) ;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.caracteristicas-item p{
+    color: darkgray;
+}
+
+.workflow__marcas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.marcas-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.clipboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centrado-clipboard {
+    width: 100%;
+    height: 90%;
+}
+
+footer {
+    margin-top: 130px;
+    height: 150px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo img{
+    width:75px;
+    height: 75px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 33%;
+    padding-top: 20px;
+}
+
+.footer-links a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+}
+
+.footer-links a:hover {
+    color: rgb(63, 173, 151);
+}
+
+.footer-redes img{
+    padding: 10px;
+}
+
+.footer-redes img:hover{
+    fill: rgb(63, 173, 151);
+}
