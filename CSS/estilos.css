@@ -300,6 +300,10 @@ footer {
         padding: 0;
     }
 
+    .caracteristicas-imagen img {
+        width: 100%;
+    }
+
 
     .caracteristicas-texto {
         padding: 0;
